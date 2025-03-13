@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: faulty-pod
+  labels:
+    app: faulty-app
+spec:
+  containers:
+    - name: faulty-app-container
+      image: non-existent-image:latest
+

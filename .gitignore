@@ -1,2 +1,5 @@
+.vscode
 /k8s-agent/k8s-agent
 /remediation-server/remediation-server
+result.yaml
+ollama/
